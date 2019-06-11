@@ -1,4 +1,7 @@
 {
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.esm.js"
+  },
   "name": "9_vue_project",
   "version": "0.1.0",
   "private": true,
