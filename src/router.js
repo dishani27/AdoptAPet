@@ -30,6 +30,10 @@ export default new Router({
       path: '/cats',
       name: 'cats',
       component: Cats
+    },
+    {
+      path: "/index.html",
+      redirect: "/" 
     }
   ]
 })
