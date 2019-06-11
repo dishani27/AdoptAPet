@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/food/',
+  publicPath: '/AdoptAPet/',
   plugins: {
     autoprefixer: {}
   }
