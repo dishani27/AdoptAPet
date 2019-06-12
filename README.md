@@ -1,4 +1,4 @@
-# 9_vue_project
+# Adopt A Pet
 
 ## Project setup
 ```
