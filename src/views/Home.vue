@@ -2,8 +2,8 @@
   <div class="home">
 
     <h1>Adopt a new Best Friend !</h1>
-     <p class="explore" > <router-link to="/dogs">Explore Dogs</router-link></p>
-     <p class="explore" > <router-link to="/cats">Explore Cats</router-link></p><br>
+     <p class="explore" > <router-link to="/AdoptAPet/dogs">Explore Dogs</router-link></p>
+     <p class="explore" > <router-link to="/AdoptAPet/cats">Explore Cats</router-link></p><br>
      <p> Pets For Adoption: {{ petsCount }} </p>
      <button class="btn btn-primary addB" @click="togglePetForm"> Add A Pet </button>
 

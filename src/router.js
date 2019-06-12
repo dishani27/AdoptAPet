@@ -12,24 +12,28 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
+      path: '/AdoptAPet',
       name: 'home',
       component: Home
     },
     {
-      path: '/pets/:species/:id',
+      path: '/AdoptAPet/pets/:species/:id',
       name: 'pets',
       component: Pets
     },
     {
-      path: '/dogs',
+      path: '/AdoptAPet/dogs',
       name: 'dogs',
       component: Dogs
     },
     {
-      path: '/cats',
+      path: '/AdoptAPet/cats',
       name: 'cats',
       component: Cats
+    },
+    {
+      path: "/index.html",
+      redirect: "/" 
     }
   ]
 })

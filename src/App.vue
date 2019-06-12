@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/AdoptAPet">Home</router-link> |
       <!-- <router-link to="/pets">Pets</router-link> | -->
-      <router-link to="/dogs">Dogs</router-link> |
-      <router-link to="/cats">Cats</router-link>
+      <router-link to="/AdoptAPet/dogs">Dogs</router-link> |
+      <router-link to="/AdoptAPet/cats">Cats</router-link>
     </div>
 
     <b-container>
